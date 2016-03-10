@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LYMyCloudVC : UIViewController
+@interface LYMyCloudVC : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

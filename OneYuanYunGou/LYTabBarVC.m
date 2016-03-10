@@ -12,6 +12,9 @@
 #import "LYLatestAnnounceVC.h"
 #import "LYShoppingCartVC.h"
 #import "LYMyCloudVC.h"
+#import "UIColor+Util.h"
+
+#define  SCREENWIDTH [UIScreen mainScreen].bounds.size.width
 
 @interface LYTabBarVC () <UITabBarControllerDelegate, UINavigationControllerDelegate>
 {
@@ -19,7 +22,6 @@
     LYAllProductVC *allProductViewCtl;              //所有商品
     LYLatestAnnounceVC *latestAnnounceViewCtl;      //最新揭晓
     LYShoppingCartVC *shoppingCartViewCtl;          //购物车
-    LYMyCloudVC *myCloudViewCtl;                    //我的云购
 }
 
 @end
@@ -33,18 +35,22 @@
     // Do any additional setup after loading the view.
     
     //初始化各视图控制器
-    homePageViewCtl = [[LYHomePageVC alloc] init];
     allProductViewCtl = [[LYAllProductVC alloc] init];
     latestAnnounceViewCtl = [[LYLatestAnnounceVC alloc] init];
     shoppingCartViewCtl = [[LYShoppingCartVC alloc] init];
-    myCloudViewCtl = [[LYMyCloudVC alloc] init];
+    
+    UIStoryboard *homeStoryboard = [UIStoryboard storyboardWithName:@"HomePage" bundle:nil];
+    UINavigationController *homePageNav = [homeStoryboard instantiateViewControllerWithIdentifier:@"homePageNav"];
+    
+    UIStoryboard *myStoryboard = [UIStoryboard storyboardWithName:@"MyCloud" bundle:nil];
+    UINavigationController *myCloudNav = [myStoryboard instantiateViewControllerWithIdentifier:@"MyCloudNav"];
     
     self.tabBar.translucent = NO;   //设置tabbar是否半透明
-    self.viewControllers = @[homePageViewCtl,
+    self.viewControllers = @[homePageNav,
                              allProductViewCtl,
                              latestAnnounceViewCtl,
                              shoppingCartViewCtl,
-                             myCloudViewCtl];
+                             myCloudNav];
     
     NSArray *titles = @[@"首页", @"所有商品", @"最新揭晓", @"购物车", @"我的云购"];
     NSArray *images = @[@"tab-home", @"tab-product", @"tab-latest", @"tab-shopping", @"tab-mycloud"];
@@ -54,6 +60,13 @@
         [item setSelectedImage:[UIImage imageNamed:[images[index] stringByAppendingString:@"-s"]]];
         
     }];
+}
+
+#pragma mark -
+
+- (void)pushSearchViewCtl
+{
+    
 }
 
 @end

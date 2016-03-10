@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="mjL-wO-sUa">
+            <objects>
+                <navigationController storyboardIdentifier="MyCloudNav" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sa1-Rr-1RZ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RDs-Ir-Pa7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="CCm-jq-y8v" kind="relationship" relationship="rootViewController" id="Es2-4H-lAg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pX1-m6-zRn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-24" y="441.14666666666665"/>
+        </scene>
+        <!-- 我的云购-->
+        <scene sceneID="jDl-es-pMD">
+            <objects>
+                <viewController id="CCm-jq-y8v" customClass="LYMyCloudVC" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="6DK-rE-935">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="LNM-OB-Q2K">
+                            <rect key="frame" x="0.0" y="64" width="320" height="140"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFL-rR-Wgc">
+                                    <rect key="frame" x="112" y="64" width="97" height="32"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <inset key="contentEdgeInsets" minX="16" minY="7" maxX="16" maxY="7"/>
+                                    <state key="normal" title="登录/注册"/>
+                                    <connections>
+                                        <action selector="pushLoginVC:" destination="CCm-jq-y8v" eventType="touchUpInside" id="GSn-d1-c0r"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢迎来到1元云购" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaB-zf-cNV">
+                                    <rect key="frame" x="123" y="34" width="75" height="12"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.098689255609999998" green="0.48908861570000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="QaB-zf-cNV" firstAttribute="top" secondItem="LNM-OB-Q2K" secondAttribute="top" constant="34" id="3SU-7y-dZb"/>
+                                <constraint firstItem="QaB-zf-cNV" firstAttribute="centerX" secondItem="LNM-OB-Q2K" secondAttribute="centerX" id="PAj-XQ-SUf"/>
+                                <constraint firstItem="CFL-rR-Wgc" firstAttribute="centerX" secondItem="QaB-zf-cNV" secondAttribute="centerX" id="jyF-2M-sG5"/>
+                                <constraint firstItem="CFL-rR-Wgc" firstAttribute="top" secondItem="QaB-zf-cNV" secondAttribute="bottom" constant="18" id="nU8-5e-0ti"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Q0r-kR-vtK">
+                                <rect key="frame" x="0.0" y="253.5" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q0r-kR-vtK" id="X55-FB-h9M">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="CCm-jq-y8v" id="Ksi-m9-B8p"/>
+                            <outlet property="delegate" destination="CCm-jq-y8v" id="roJ-UY-jWT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title=" 我的云购" id="wyU-e3-gWu">
+                        <barButtonItem key="rightBarButtonItem" image="setting" id="Bam-4Z-QwI">
+                            <connections>
+                                <action selector="pushSettingVC:" destination="CCm-jq-y8v" id="4D6-BL-V1b"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="6DK-rE-935" id="Iey-IK-3Wl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SIS-0g-7fr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="381" y="441"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="setting" width="21" height="21"/>
+    </resources>
+</document>

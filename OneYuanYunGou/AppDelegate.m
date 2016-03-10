@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LYTabBarVC.h"
+#import "UIColor+Util.h"
 
 @interface AppDelegate ()
 
@@ -24,8 +25,8 @@
     [self.window makeKeyAndVisible];
     self.window.rootViewController = [[LYTabBarVC alloc] init];
     
-    [[UITabBar appearance] setTintColor:[UIColor colorWithRed:251.0/255.0f green:78.0/255.0f blue:10.0/255.f alpha:1.0]];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:251.0/255.0f green:78.0/255.0f blue:10.0/255.0f alpha:1.0]} forState:UIControlStateSelected];
+    [[UITabBar appearance] setTintColor:[UIColor tabBarTintColor]];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor tabBarTintColor]} forState:UIControlStateSelected];
     
     return YES;
 }

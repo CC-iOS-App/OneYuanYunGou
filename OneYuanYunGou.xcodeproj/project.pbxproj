@@ -14,6 +14,16 @@
 		655CAF061C8EE915003F419F /* LYLatestAnnounceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CAF051C8EE915003F419F /* LYLatestAnnounceVC.m */; };
 		655CAF091C8EE93D003F419F /* LYShoppingCartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CAF081C8EE93D003F419F /* LYShoppingCartVC.m */; };
 		655CAF0C1C8EE956003F419F /* LYMyCloudVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CAF0B1C8EE956003F419F /* LYMyCloudVC.m */; };
+		656B1E711C8FF5D4003DDC76 /* AdScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B1E701C8FF5D4003DDC76 /* AdScrollerView.m */; };
+		656B1E761C9018BB003DDC76 /* AdDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B1E751C9018BB003DDC76 /* AdDataModel.m */; };
+		656B1E781C90246A003DDC76 /* AdData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 656B1E771C90246A003DDC76 /* AdData.plist */; };
+		65918F2F1C9107E700BBBAFE /* MyCloud.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65918F2E1C9107E700BBBAFE /* MyCloud.storyboard */; };
+		65918F371C911B6A00BBBAFE /* LYMyCloudCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65918F361C911B6A00BBBAFE /* LYMyCloudCell.m */; };
+		65918F5F1C917A1E00BBBAFE /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65918F5E1C917A1D00BBBAFE /* HomePage.storyboard */; };
+		65918F611C917AFD00BBBAFE /* Product.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65918F601C917AFD00BBBAFE /* Product.storyboard */; };
+		65A31F361C8FB97000855495 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A31F351C8FB97000855495 /* UIColor+Util.m */; };
+		65A31F451C8FD08300855495 /* LYHomePageHearderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A31F441C8FD08300855495 /* LYHomePageHearderVC.m */; };
+		65A31F481C8FD1C100855495 /* LYHomeHeaderCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A31F471C8FD1C100855495 /* LYHomeHeaderCollectionVC.m */; };
 		65C8AAA71C8ECDAC00406CCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C8AAA61C8ECDAC00406CCA /* main.m */; };
 		65C8AAAA1C8ECDAC00406CCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C8AAA91C8ECDAC00406CCA /* AppDelegate.m */; };
 		65C8AAAF1C8ECDAC00406CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C8AAAE1C8ECDAC00406CCA /* Assets.xcassets */; };
@@ -34,6 +44,22 @@
 		655CAF081C8EE93D003F419F /* LYShoppingCartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYShoppingCartVC.m; sourceTree = "<group>"; };
 		655CAF0A1C8EE956003F419F /* LYMyCloudVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMyCloudVC.h; sourceTree = "<group>"; };
 		655CAF0B1C8EE956003F419F /* LYMyCloudVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMyCloudVC.m; sourceTree = "<group>"; };
+		656B1E6F1C8FF5D4003DDC76 /* AdScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdScrollerView.h; sourceTree = "<group>"; };
+		656B1E701C8FF5D4003DDC76 /* AdScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdScrollerView.m; sourceTree = "<group>"; };
+		656B1E741C9018BB003DDC76 /* AdDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdDataModel.h; sourceTree = "<group>"; };
+		656B1E751C9018BB003DDC76 /* AdDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdDataModel.m; sourceTree = "<group>"; };
+		656B1E771C90246A003DDC76 /* AdData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AdData.plist; sourceTree = "<group>"; };
+		65918F2E1C9107E700BBBAFE /* MyCloud.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyCloud.storyboard; sourceTree = "<group>"; };
+		65918F351C911B6A00BBBAFE /* LYMyCloudCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMyCloudCell.h; sourceTree = "<group>"; };
+		65918F361C911B6A00BBBAFE /* LYMyCloudCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMyCloudCell.m; sourceTree = "<group>"; };
+		65918F5E1C917A1D00BBBAFE /* HomePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
+		65918F601C917AFD00BBBAFE /* Product.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Product.storyboard; sourceTree = "<group>"; };
+		65A31F341C8FB97000855495 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		65A31F351C8FB97000855495 /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		65A31F431C8FD08300855495 /* LYHomePageHearderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHomePageHearderVC.h; sourceTree = "<group>"; };
+		65A31F441C8FD08300855495 /* LYHomePageHearderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHomePageHearderVC.m; sourceTree = "<group>"; };
+		65A31F461C8FD1C100855495 /* LYHomeHeaderCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHomeHeaderCollectionVC.h; sourceTree = "<group>"; };
+		65A31F471C8FD1C100855495 /* LYHomeHeaderCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHomeHeaderCollectionVC.m; sourceTree = "<group>"; };
 		65C8AAA21C8ECDAC00406CCA /* OneYuanYunGou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneYuanYunGou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C8AAA61C8ECDAC00406CCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65C8AAA81C8ECDAC00406CCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,6 +97,11 @@
 			children = (
 				655CAEFE1C8EE852003F419F /* LYHomePageVC.h */,
 				655CAEFF1C8EE852003F419F /* LYHomePageVC.m */,
+				65A31F431C8FD08300855495 /* LYHomePageHearderVC.h */,
+				65A31F441C8FD08300855495 /* LYHomePageHearderVC.m */,
+				65A31F461C8FD1C100855495 /* LYHomeHeaderCollectionVC.h */,
+				65A31F471C8FD1C100855495 /* LYHomeHeaderCollectionVC.m */,
+				65918F5E1C917A1D00BBBAFE /* HomePage.storyboard */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -80,6 +111,7 @@
 			children = (
 				655CAF011C8EE88A003F419F /* LYAllProductVC.h */,
 				655CAF021C8EE88A003F419F /* LYAllProductVC.m */,
+				65918F601C917AFD00BBBAFE /* Product.storyboard */,
 			);
 			name = Product;
 			sourceTree = "<group>";
@@ -107,8 +139,47 @@
 			children = (
 				655CAF0A1C8EE956003F419F /* LYMyCloudVC.h */,
 				655CAF0B1C8EE956003F419F /* LYMyCloudVC.m */,
+				65918F2E1C9107E700BBBAFE /* MyCloud.storyboard */,
+				65918F351C911B6A00BBBAFE /* LYMyCloudCell.h */,
+				65918F361C911B6A00BBBAFE /* LYMyCloudCell.m */,
 			);
 			name = MyCloud;
+			sourceTree = "<group>";
+		};
+		656B1E6E1C8FF1BD003DDC76 /* ScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				656B1E6F1C8FF5D4003DDC76 /* AdScrollerView.h */,
+				656B1E701C8FF5D4003DDC76 /* AdScrollerView.m */,
+			);
+			name = ScrollerView;
+			sourceTree = "<group>";
+		};
+		656B1E721C901888003DDC76 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				656B1E731C90189A003DDC76 /* AdData */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		656B1E731C90189A003DDC76 /* AdData */ = {
+			isa = PBXGroup;
+			children = (
+				656B1E741C9018BB003DDC76 /* AdDataModel.h */,
+				656B1E751C9018BB003DDC76 /* AdDataModel.m */,
+				656B1E771C90246A003DDC76 /* AdData.plist */,
+			);
+			name = AdData;
+			sourceTree = "<group>";
+		};
+		65A31F331C8FB91600855495 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				65A31F341C8FB97000855495 /* UIColor+Util.h */,
+				65A31F351C8FB97000855495 /* UIColor+Util.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 		65C8AA991C8ECDAC00406CCA = {
@@ -132,6 +203,7 @@
 		65C8AAA41C8ECDAC00406CCA /* OneYuanYunGou */ = {
 			isa = PBXGroup;
 			children = (
+				65A31F331C8FB91600855495 /* Categories */,
 				65C8AABD1C8ECF6D00406CCA /* Utils */,
 				65C8AABC1C8ECF6000406CCA /* Controllers */,
 				65C8AABB1C8ECF5400406CCA /* Views */,
@@ -165,6 +237,7 @@
 		65C8AABA1C8ECF4600406CCA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				656B1E721C901888003DDC76 /* Home */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -172,6 +245,7 @@
 		65C8AABB1C8ECF5400406CCA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				656B1E6E1C8FF1BD003DDC76 /* ScrollerView */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -274,8 +348,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65918F2F1C9107E700BBBAFE /* MyCloud.storyboard in Resources */,
 				65C8AAAF1C8ECDAC00406CCA /* Assets.xcassets in Resources */,
+				65918F611C917AFD00BBBAFE /* Product.storyboard in Resources */,
+				65918F5F1C917A1E00BBBAFE /* HomePage.storyboard in Resources */,
 				65C8AAB21C8ECDAC00406CCA /* LaunchScreen.storyboard in Resources */,
+				656B1E781C90246A003DDC76 /* AdData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,10 +414,16 @@
 			files = (
 				655CAF091C8EE93D003F419F /* LYShoppingCartVC.m in Sources */,
 				65C8AAAA1C8ECDAC00406CCA /* AppDelegate.m in Sources */,
+				656B1E761C9018BB003DDC76 /* AdDataModel.m in Sources */,
 				655CAF001C8EE852003F419F /* LYHomePageVC.m in Sources */,
 				655CAF0C1C8EE956003F419F /* LYMyCloudVC.m in Sources */,
+				65A31F481C8FD1C100855495 /* LYHomeHeaderCollectionVC.m in Sources */,
+				65A31F451C8FD08300855495 /* LYHomePageHearderVC.m in Sources */,
+				65A31F361C8FB97000855495 /* UIColor+Util.m in Sources */,
 				655CAF031C8EE88A003F419F /* LYAllProductVC.m in Sources */,
 				655CAF061C8EE915003F419F /* LYLatestAnnounceVC.m in Sources */,
+				65918F371C911B6A00BBBAFE /* LYMyCloudCell.m in Sources */,
+				656B1E711C8FF5D4003DDC76 /* AdScrollerView.m in Sources */,
 				65C8AAA71C8ECDAC00406CCA /* main.m in Sources */,
 				655CAEF81C8EE63D003F419F /* LYTabBarVC.m in Sources */,
 			);
