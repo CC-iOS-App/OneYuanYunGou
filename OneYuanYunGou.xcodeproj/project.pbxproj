@@ -89,21 +89,21 @@
 				655CAEF61C8EE63D003F419F /* LYTabBarVC.h */,
 				655CAEF71C8EE63D003F419F /* LYTabBarVC.m */,
 			);
-			name = TabBar;
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		655CAEF91C8EE758003F419F /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				655CAEFE1C8EE852003F419F /* LYHomePageVC.h */,
-				655CAEFF1C8EE852003F419F /* LYHomePageVC.m */,
-				65A31F431C8FD08300855495 /* LYHomePageHearderVC.h */,
-				65A31F441C8FD08300855495 /* LYHomePageHearderVC.m */,
+				65918F5E1C917A1D00BBBAFE /* HomePage.storyboard */,
 				65A31F461C8FD1C100855495 /* LYHomeHeaderCollectionVC.h */,
 				65A31F471C8FD1C100855495 /* LYHomeHeaderCollectionVC.m */,
-				65918F5E1C917A1D00BBBAFE /* HomePage.storyboard */,
+				65A31F431C8FD08300855495 /* LYHomePageHearderVC.h */,
+				65A31F441C8FD08300855495 /* LYHomePageHearderVC.m */,
+				655CAEFE1C8EE852003F419F /* LYHomePageVC.h */,
+				655CAEFF1C8EE852003F419F /* LYHomePageVC.m */,
 			);
-			name = Home;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		655CAEFA1C8EE763003F419F /* Product */ = {
@@ -113,7 +113,7 @@
 				655CAF021C8EE88A003F419F /* LYAllProductVC.m */,
 				65918F601C917AFD00BBBAFE /* Product.storyboard */,
 			);
-			name = Product;
+			path = Product;
 			sourceTree = "<group>";
 		};
 		655CAEFB1C8EE7C6003F419F /* Latest */ = {
@@ -122,7 +122,7 @@
 				655CAF041C8EE915003F419F /* LYLatestAnnounceVC.h */,
 				655CAF051C8EE915003F419F /* LYLatestAnnounceVC.m */,
 			);
-			name = Latest;
+			path = Latest;
 			sourceTree = "<group>";
 		};
 		655CAEFC1C8EE7EC003F419F /* Cart */ = {
@@ -131,19 +131,19 @@
 				655CAF071C8EE93D003F419F /* LYShoppingCartVC.h */,
 				655CAF081C8EE93D003F419F /* LYShoppingCartVC.m */,
 			);
-			name = Cart;
+			path = Cart;
 			sourceTree = "<group>";
 		};
 		655CAEFD1C8EE815003F419F /* MyCloud */ = {
 			isa = PBXGroup;
 			children = (
+				65918F351C911B6A00BBBAFE /* LYMyCloudCell.h */,
+				65918F361C911B6A00BBBAFE /* LYMyCloudCell.m */,
 				655CAF0A1C8EE956003F419F /* LYMyCloudVC.h */,
 				655CAF0B1C8EE956003F419F /* LYMyCloudVC.m */,
 				65918F2E1C9107E700BBBAFE /* MyCloud.storyboard */,
-				65918F351C911B6A00BBBAFE /* LYMyCloudCell.h */,
-				65918F361C911B6A00BBBAFE /* LYMyCloudCell.m */,
 			);
-			name = MyCloud;
+			path = MyCloud;
 			sourceTree = "<group>";
 		};
 		656B1E6E1C8FF1BD003DDC76 /* ScrollerView */ = {
@@ -152,7 +152,7 @@
 				656B1E6F1C8FF5D4003DDC76 /* AdScrollerView.h */,
 				656B1E701C8FF5D4003DDC76 /* AdScrollerView.m */,
 			);
-			name = ScrollerView;
+			path = ScrollerView;
 			sourceTree = "<group>";
 		};
 		656B1E721C901888003DDC76 /* Home */ = {
@@ -160,17 +160,17 @@
 			children = (
 				656B1E731C90189A003DDC76 /* AdData */,
 			);
-			name = Home;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		656B1E731C90189A003DDC76 /* AdData */ = {
 			isa = PBXGroup;
 			children = (
+				656B1E771C90246A003DDC76 /* AdData.plist */,
 				656B1E741C9018BB003DDC76 /* AdDataModel.h */,
 				656B1E751C9018BB003DDC76 /* AdDataModel.m */,
-				656B1E771C90246A003DDC76 /* AdData.plist */,
 			);
-			name = AdData;
+			path = AdData;
 			sourceTree = "<group>";
 		};
 		65A31F331C8FB91600855495 /* Categories */ = {
@@ -179,16 +179,16 @@
 				65A31F341C8FB97000855495 /* UIColor+Util.h */,
 				65A31F351C8FB97000855495 /* UIColor+Util.m */,
 			);
-			name = Categories;
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		65C8AA991C8ECDAC00406CCA = {
 			isa = PBXGroup;
 			children = (
-				65C8AAA41C8ECDAC00406CCA /* OneYuanYunGou */,
-				65C8AAA31C8ECDAC00406CCA /* Products */,
-				A2FE3981067A237010624C31 /* Pods */,
 				6E44A70CB1C21FD4DC4B1161 /* Frameworks */,
+				65C8AAA41C8ECDAC00406CCA /* OneYuanYunGou */,
+				A2FE3981067A237010624C31 /* Pods */,
+				65C8AAA31C8ECDAC00406CCA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,16 +203,15 @@
 		65C8AAA41C8ECDAC00406CCA /* OneYuanYunGou */ = {
 			isa = PBXGroup;
 			children = (
-				65A31F331C8FB91600855495 /* Categories */,
-				65C8AABD1C8ECF6D00406CCA /* Utils */,
-				65C8AABC1C8ECF6000406CCA /* Controllers */,
-				65C8AABB1C8ECF5400406CCA /* Views */,
-				65C8AABA1C8ECF4600406CCA /* Models */,
 				65C8AAB91C8ECF3100406CCA /* Application */,
-				65C8AAAE1C8ECDAC00406CCA /* Assets.xcassets */,
-				65C8AAB01C8ECDAC00406CCA /* LaunchScreen.storyboard */,
-				65C8AAB31C8ECDAC00406CCA /* Info.plist */,
+				65A31F331C8FB91600855495 /* Categories */,
+				65C8AABC1C8ECF6000406CCA /* Controllers */,
+				65C8AABA1C8ECF4600406CCA /* Models */,
 				65C8AAA51C8ECDAC00406CCA /* Supporting Files */,
+				65C8AABB1C8ECF5400406CCA /* Views */,
+				65C8AAAE1C8ECDAC00406CCA /* Assets.xcassets */,
+				65C8AAB31C8ECDAC00406CCA /* Info.plist */,
+				65C8AAB01C8ECDAC00406CCA /* LaunchScreen.storyboard */,
 			);
 			path = OneYuanYunGou;
 			sourceTree = "<group>";
@@ -222,7 +221,7 @@
 			children = (
 				65C8AAA61C8ECDAC00406CCA /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		65C8AAB91C8ECF3100406CCA /* Application */ = {
@@ -231,7 +230,7 @@
 				65C8AAA81C8ECDAC00406CCA /* AppDelegate.h */,
 				65C8AAA91C8ECDAC00406CCA /* AppDelegate.m */,
 			);
-			name = Application;
+			path = Application;
 			sourceTree = "<group>";
 		};
 		65C8AABA1C8ECF4600406CCA /* Models */ = {
@@ -239,7 +238,7 @@
 			children = (
 				656B1E721C901888003DDC76 /* Home */,
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		65C8AABB1C8ECF5400406CCA /* Views */ = {
@@ -247,27 +246,20 @@
 			children = (
 				656B1E6E1C8FF1BD003DDC76 /* ScrollerView */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		65C8AABC1C8ECF6000406CCA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				655CAEFD1C8EE815003F419F /* MyCloud */,
 				655CAEFC1C8EE7EC003F419F /* Cart */,
-				655CAEFB1C8EE7C6003F419F /* Latest */,
-				655CAEFA1C8EE763003F419F /* Product */,
 				655CAEF91C8EE758003F419F /* Home */,
+				655CAEFB1C8EE7C6003F419F /* Latest */,
+				655CAEFD1C8EE815003F419F /* MyCloud */,
+				655CAEFA1C8EE763003F419F /* Product */,
 				655CAEF21C8EE589003F419F /* TabBar */,
 			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		65C8AABD1C8ECF6D00406CCA /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Utils;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		6E44A70CB1C21FD4DC4B1161 /* Frameworks */ = {
@@ -438,6 +430,7 @@
 				65C8AAB11C8ECDAC00406CCA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
