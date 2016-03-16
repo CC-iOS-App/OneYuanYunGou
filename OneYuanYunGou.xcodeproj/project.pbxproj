@@ -17,16 +17,19 @@
 		656B1E711C8FF5D4003DDC76 /* AdScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B1E701C8FF5D4003DDC76 /* AdScrollerView.m */; };
 		656B1E761C9018BB003DDC76 /* AdDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B1E751C9018BB003DDC76 /* AdDataModel.m */; };
 		656B1E781C90246A003DDC76 /* AdData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 656B1E771C90246A003DDC76 /* AdData.plist */; };
+		658D743F1C925EEC0005D5CC /* ShopCart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658D743E1C925EEC0005D5CC /* ShopCart.storyboard */; };
+		658D74411C92661B0005D5CC /* LatestAnn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658D74401C92661B0005D5CC /* LatestAnn.storyboard */; };
+		658D74431C926A080005D5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658D74421C926A080005D5CC /* Assets.xcassets */; };
 		65918F2F1C9107E700BBBAFE /* MyCloud.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65918F2E1C9107E700BBBAFE /* MyCloud.storyboard */; };
 		65918F371C911B6A00BBBAFE /* LYMyCloudCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65918F361C911B6A00BBBAFE /* LYMyCloudCell.m */; };
 		65918F5F1C917A1E00BBBAFE /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65918F5E1C917A1D00BBBAFE /* HomePage.storyboard */; };
 		65918F611C917AFD00BBBAFE /* Product.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65918F601C917AFD00BBBAFE /* Product.storyboard */; };
+		659ED8BB1C951396009A38AE /* LYLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 659ED8BA1C951396009A38AE /* LYLoginVC.m */; };
 		65A31F361C8FB97000855495 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A31F351C8FB97000855495 /* UIColor+Util.m */; };
 		65A31F451C8FD08300855495 /* LYHomePageHearderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A31F441C8FD08300855495 /* LYHomePageHearderVC.m */; };
 		65A31F481C8FD1C100855495 /* LYHomeHeaderCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A31F471C8FD1C100855495 /* LYHomeHeaderCollectionVC.m */; };
 		65C8AAA71C8ECDAC00406CCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C8AAA61C8ECDAC00406CCA /* main.m */; };
 		65C8AAAA1C8ECDAC00406CCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C8AAA91C8ECDAC00406CCA /* AppDelegate.m */; };
-		65C8AAAF1C8ECDAC00406CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C8AAAE1C8ECDAC00406CCA /* Assets.xcassets */; };
 		65C8AAB21C8ECDAC00406CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C8AAB01C8ECDAC00406CCA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -49,11 +52,16 @@
 		656B1E741C9018BB003DDC76 /* AdDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdDataModel.h; sourceTree = "<group>"; };
 		656B1E751C9018BB003DDC76 /* AdDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdDataModel.m; sourceTree = "<group>"; };
 		656B1E771C90246A003DDC76 /* AdData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AdData.plist; sourceTree = "<group>"; };
+		658D743E1C925EEC0005D5CC /* ShopCart.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShopCart.storyboard; sourceTree = "<group>"; };
+		658D74401C92661B0005D5CC /* LatestAnn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LatestAnn.storyboard; sourceTree = "<group>"; };
+		658D74421C926A080005D5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65918F2E1C9107E700BBBAFE /* MyCloud.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyCloud.storyboard; sourceTree = "<group>"; };
 		65918F351C911B6A00BBBAFE /* LYMyCloudCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMyCloudCell.h; sourceTree = "<group>"; };
 		65918F361C911B6A00BBBAFE /* LYMyCloudCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMyCloudCell.m; sourceTree = "<group>"; };
 		65918F5E1C917A1D00BBBAFE /* HomePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
 		65918F601C917AFD00BBBAFE /* Product.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Product.storyboard; sourceTree = "<group>"; };
+		659ED8B91C951396009A38AE /* LYLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLoginVC.h; sourceTree = "<group>"; };
+		659ED8BA1C951396009A38AE /* LYLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLoginVC.m; sourceTree = "<group>"; };
 		65A31F341C8FB97000855495 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
 		65A31F351C8FB97000855495 /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
 		65A31F431C8FD08300855495 /* LYHomePageHearderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHomePageHearderVC.h; sourceTree = "<group>"; };
@@ -64,7 +72,6 @@
 		65C8AAA61C8ECDAC00406CCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65C8AAA81C8ECDAC00406CCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65C8AAA91C8ECDAC00406CCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		65C8AAAE1C8ECDAC00406CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65C8AAB11C8ECDAC00406CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65C8AAB31C8ECDAC00406CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB89CA7E6177DF252D0CFFE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +128,7 @@
 			children = (
 				655CAF041C8EE915003F419F /* LYLatestAnnounceVC.h */,
 				655CAF051C8EE915003F419F /* LYLatestAnnounceVC.m */,
+				658D74401C92661B0005D5CC /* LatestAnn.storyboard */,
 			);
 			path = Latest;
 			sourceTree = "<group>";
@@ -130,6 +138,7 @@
 			children = (
 				655CAF071C8EE93D003F419F /* LYShoppingCartVC.h */,
 				655CAF081C8EE93D003F419F /* LYShoppingCartVC.m */,
+				658D743E1C925EEC0005D5CC /* ShopCart.storyboard */,
 			);
 			path = Cart;
 			sourceTree = "<group>";
@@ -137,6 +146,7 @@
 		655CAEFD1C8EE815003F419F /* MyCloud */ = {
 			isa = PBXGroup;
 			children = (
+				659ED8B81C951367009A38AE /* Login */,
 				65918F351C911B6A00BBBAFE /* LYMyCloudCell.h */,
 				65918F361C911B6A00BBBAFE /* LYMyCloudCell.m */,
 				655CAF0A1C8EE956003F419F /* LYMyCloudVC.h */,
@@ -173,6 +183,15 @@
 			path = AdData;
 			sourceTree = "<group>";
 		};
+		659ED8B81C951367009A38AE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				659ED8B91C951396009A38AE /* LYLoginVC.h */,
+				659ED8BA1C951396009A38AE /* LYLoginVC.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		65A31F331C8FB91600855495 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,13 +222,13 @@
 		65C8AAA41C8ECDAC00406CCA /* OneYuanYunGou */ = {
 			isa = PBXGroup;
 			children = (
+				658D74421C926A080005D5CC /* Assets.xcassets */,
 				65C8AAB91C8ECF3100406CCA /* Application */,
 				65A31F331C8FB91600855495 /* Categories */,
 				65C8AABC1C8ECF6000406CCA /* Controllers */,
 				65C8AABA1C8ECF4600406CCA /* Models */,
 				65C8AAA51C8ECDAC00406CCA /* Supporting Files */,
 				65C8AABB1C8ECF5400406CCA /* Views */,
-				65C8AAAE1C8ECDAC00406CCA /* Assets.xcassets */,
 				65C8AAB31C8ECDAC00406CCA /* Info.plist */,
 				65C8AAB01C8ECDAC00406CCA /* LaunchScreen.storyboard */,
 			);
@@ -341,10 +360,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				65918F2F1C9107E700BBBAFE /* MyCloud.storyboard in Resources */,
-				65C8AAAF1C8ECDAC00406CCA /* Assets.xcassets in Resources */,
 				65918F611C917AFD00BBBAFE /* Product.storyboard in Resources */,
 				65918F5F1C917A1E00BBBAFE /* HomePage.storyboard in Resources */,
 				65C8AAB21C8ECDAC00406CCA /* LaunchScreen.storyboard in Resources */,
+				658D74411C92661B0005D5CC /* LatestAnn.storyboard in Resources */,
+				658D743F1C925EEC0005D5CC /* ShopCart.storyboard in Resources */,
+				658D74431C926A080005D5CC /* Assets.xcassets in Resources */,
 				656B1E781C90246A003DDC76 /* AdData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +435,7 @@
 				65A31F361C8FB97000855495 /* UIColor+Util.m in Sources */,
 				655CAF031C8EE88A003F419F /* LYAllProductVC.m in Sources */,
 				655CAF061C8EE915003F419F /* LYLatestAnnounceVC.m in Sources */,
+				659ED8BB1C951396009A38AE /* LYLoginVC.m in Sources */,
 				65918F371C911B6A00BBBAFE /* LYMyCloudCell.m in Sources */,
 				656B1E711C8FF5D4003DDC76 /* AdScrollerView.m in Sources */,
 				65C8AAA71C8ECDAC00406CCA /* main.m in Sources */,

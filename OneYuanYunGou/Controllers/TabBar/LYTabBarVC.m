@@ -17,12 +17,6 @@
 #define  SCREENWIDTH [UIScreen mainScreen].bounds.size.width
 
 @interface LYTabBarVC () <UITabBarControllerDelegate, UINavigationControllerDelegate>
-{
-    LYHomePageVC *homePageViewCtl;                  //首页
-    LYAllProductVC *allProductViewCtl;              //所有商品
-    LYLatestAnnounceVC *latestAnnounceViewCtl;      //最新揭晓
-    LYShoppingCartVC *shoppingCartViewCtl;          //购物车
-}
 
 @end
 
@@ -34,22 +28,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    //初始化各视图控制器
-    allProductViewCtl = [[LYAllProductVC alloc] init];
-    latestAnnounceViewCtl = [[LYLatestAnnounceVC alloc] init];
-    shoppingCartViewCtl = [[LYShoppingCartVC alloc] init];
-    
     UIStoryboard *homeStoryboard = [UIStoryboard storyboardWithName:@"HomePage" bundle:nil];
-    UINavigationController *homePageNav = [homeStoryboard instantiateViewControllerWithIdentifier:@"homePageNav"];
+    UINavigationController *homePageNav = [homeStoryboard instantiateViewControllerWithIdentifier:@"HomePageNav"];
+    
+    UIStoryboard *productStoryboard = [UIStoryboard storyboardWithName:@"Product" bundle:nil];
+    UINavigationController *productNav = [productStoryboard instantiateViewControllerWithIdentifier:@"ProductNav"];
+    
+    UIStoryboard *latestStoryboard = [UIStoryboard storyboardWithName:@"LatestAnn" bundle:nil];
+    UINavigationController *latestAnnNav = [latestStoryboard instantiateViewControllerWithIdentifier:@"LatestAnnNav"];
+    
+    UIStoryboard *shopStoryboard = [UIStoryboard storyboardWithName:@"ShopCart" bundle:nil];
+    UINavigationController *shopCartNav = [shopStoryboard instantiateViewControllerWithIdentifier:@"ShopCartNav"];
     
     UIStoryboard *myStoryboard = [UIStoryboard storyboardWithName:@"MyCloud" bundle:nil];
     UINavigationController *myCloudNav = [myStoryboard instantiateViewControllerWithIdentifier:@"MyCloudNav"];
     
     self.tabBar.translucent = NO;   //设置tabbar是否半透明
     self.viewControllers = @[homePageNav,
-                             allProductViewCtl,
-                             latestAnnounceViewCtl,
-                             shoppingCartViewCtl,
+                             productNav,
+                             latestAnnNav,
+                             shopCartNav,
                              myCloudNav];
     
     NSArray *titles = @[@"首页", @"所有商品", @"最新揭晓", @"购物车", @"我的云购"];

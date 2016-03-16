@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="6Ul-J1-07L">
+            <objects>
+                <navigationController storyboardIdentifier="ShopCartNav" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zbc-Pt-SK7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nEW-Jr-JgW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="AlN-EB-b4S" kind="relationship" relationship="rootViewController" id="OHF-a4-PDk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BLk-kC-BOX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-142.40000000000001" y="337.95999999999998"/>
+        </scene>
+        <!--购物车-->
+        <scene sceneID="B6g-Si-umc">
+            <objects>
+                <viewController id="AlN-EB-b4S" customClass="LYShoppingCartVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j99-0I-oat"/>
+                        <viewControllerLayoutGuide type="bottom" id="xJo-IH-HFy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sj4-y4-pmS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shopping-cart" translatesAutoresizingMaskIntoConstraints="NO" id="mFX-iG-YOT">
+                                <rect key="frame" x="84" y="139" width="152" height="127"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mFX-iG-YOT" secondAttribute="height" multiplier="6:5" id="wOb-5a-W34"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="购物车为空" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-vJ-WT6">
+                                <rect key="frame" x="125" y="290" width="70" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.42909564393939392" green="0.42909564393939392" blue="0.42909564393939392" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您当前状态为未登录，可能导致购物车为空" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuH-AB-k6B">
+                                <rect key="frame" x="46" y="321" width="228" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfn-Nn-uc5">
+                                <rect key="frame" x="82" y="350" width="156" height="29"/>
+                                <color key="backgroundColor" red="1" green="0.45313174968898484" blue="0.069965244839118701" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="50" minY="6" maxX="50" maxY="6"/>
+                                <state key="normal" title="立即登录">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iLc-vJ-WT6" firstAttribute="top" secondItem="mFX-iG-YOT" secondAttribute="bottom" constant="24" id="0AP-6t-GRx"/>
+                            <constraint firstItem="mFX-iG-YOT" firstAttribute="top" secondItem="j99-0I-oat" secondAttribute="bottom" constant="75" id="3lJ-ie-yzz"/>
+                            <constraint firstItem="mFX-iG-YOT" firstAttribute="centerX" secondItem="Sj4-y4-pmS" secondAttribute="centerX" id="9Gy-eZ-aXm"/>
+                            <constraint firstItem="iLc-vJ-WT6" firstAttribute="centerX" secondItem="Sj4-y4-pmS" secondAttribute="centerX" id="AfZ-3B-8Zp"/>
+                            <constraint firstItem="LuH-AB-k6B" firstAttribute="centerX" secondItem="Sj4-y4-pmS" secondAttribute="centerX" id="E5G-Uv-lNb"/>
+                            <constraint firstItem="hfn-Nn-uc5" firstAttribute="centerX" secondItem="Sj4-y4-pmS" secondAttribute="centerX" id="OcP-t5-7FY"/>
+                            <constraint firstItem="hfn-Nn-uc5" firstAttribute="top" secondItem="LuH-AB-k6B" secondAttribute="bottom" constant="14" id="VQU-Cx-6LY"/>
+                            <constraint firstItem="LuH-AB-k6B" firstAttribute="top" secondItem="iLc-vJ-WT6" secondAttribute="bottom" constant="14" id="gHc-ih-jry"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="购物车" id="DRq-2m-I5f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iWQ-Kq-17S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="296" y="337"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shopping-cart" width="150" height="127"/>
+    </resources>
+</document>

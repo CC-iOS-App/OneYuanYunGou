@@ -34,11 +34,10 @@
     [self.contentView addSubview:_imageV];
     
     [_imageV mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(@10);
         make.left.equalTo(@10);
-        make.bottom.equalTo(@-10);
         make.width.equalTo(@18);
         make.height.equalTo(@20);
+        make.centerY.equalTo(self.contentView.mas_centerY);
     }];
     
     [_label mas_makeConstraints:^(MASConstraintMaker *make) {
